@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>RASTREAMENTO LOOP</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Central de Liberação de Frota</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6fa;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    width:90%;
+    max-width:650px;
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#0057b8;
+    margin-bottom:8px;
+}
+
+.subtitulo{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.loader{
+    width:90px;
+    height:90px;
+    border:8px solid #e0e0e0;
+    border-top:8px solid #0057b8;
+    border-radius:50%;
+    margin:0 auto 25px;
+    animation:girar 1s linear infinite;
+}
+
+@keyframes girar{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+.status{
+    font-size:36px;
+    font-weight:bold;
+    color:#1f2937;
+    margin-bottom:15px;
+}
+
+.mensagem{
+    color:#6b7280;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.barra{
+    width:100%;
+    height:14px;
+    background:#e5e7eb;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progresso{
+    width:78%;
+    height:100%;
+    background:#0057b8;
+}
+
+.info{
+    margin-top:25px;
+    color:#555;
+    line-height:1.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="logo"> RASTREAMENTO LOOP</div>
+<div class="subtitulo">Central de Monitoramento Logístico</div>
+
+<div class="loader"></div>
+
+<div class="status">
+AGUARDANDO LIBERAÇÃO
+</div>
+
+<div class="mensagem">
+Seu veículo encontra-se em processo administrativo de liberação para despacho.
+</div>
+
+<div class="barra">
+<div class="progresso"></div>
+</div>
+
+<div class="info">
+<b>Status Atual:</b> Aguardando Liberação<br>
+<b>Etapa:</b> Ativação Documental<br>
+<b>Previsão:</b> 30/06/2026 13:00
+</div>
+
+</div>
+
+</body>
+</html>
+    
+  </body>
+  
+</html>
